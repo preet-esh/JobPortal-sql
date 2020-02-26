@@ -1,0 +1,47 @@
+body{
+    background-image: url(./img/main.jpg);
+    background-position: fixed;
+      filter: blur(.5px);
+     background-size: cover;
+}
+.login,.signup form{
+    border-radius: 15px;
+    width: 33vw;
+    margin: auto;
+    margin-top: 15vh;
+    border:2px white solid;
+    box-shadow: 2px 7px #888888;
+    font-size:17px;
+    background-color: rgba(0,0,0,0.8);
+}
+.signup form{
+    margin-top: 5vh;
+}
+
+label{
+    float: left;
+    color:white;
+ }
+
+p{
+    color:white;
+    font-size: 15px;
+}
+.container a:hover{
+    font-weight: bolder;
+}	
+
+.dropdown-menu{
+    background-color: skyblue;
+    text-align: center;
+    padding:15px 0;
+}
+.dropdown-menu a{
+    color:black;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+.dropdown-menu a:hover{
+    text-decoration: none;
+    font-style: italic;
+}
