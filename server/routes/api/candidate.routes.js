@@ -3,6 +3,7 @@ module.exports =function(app){
   const job_post = require('../../app/controller/employer/job_post.controller');
   const loginC =require('../../app/controller/common/login.controller');
   const registerC=require('../../app/controller/common/register.controller');
+  const forget = require('../../app/controller/common/forget');
 
   app.post('/register',registerC.create);
   app.post('/login',loginC.login);
@@ -10,6 +11,8 @@ module.exports =function(app){
   app.get('/getIndus',registerC.getIndus);
   app.get('/getCatgry',registerC.getCatgry);
 
-  // app.put('/verify',user.verifyMail);
-   
+  app.post('/verifyMail',forget.verifyMail);
+  app.post('/changePass',forget.changePass);
+  app.post('/verify',forget.verify);
+     
 }

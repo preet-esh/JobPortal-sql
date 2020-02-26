@@ -5,6 +5,8 @@ import Register1 from './Register1';
 import Login from './Login';
 import dashboard from './dashboard';
 import logOut from './logOut';
+import ForgetPass from './ForgetPass';
+import changePass from './changePass';
 
 class Routes extends React.Component {
   render() {
@@ -16,6 +18,9 @@ class Routes extends React.Component {
         <Route path="/registerJ" component={Register} />
         <Route path="/registerR" component={Register1} />
         <Route path="/dashboard" component={dashboard} />
+        
+        <Route path="/ForgetPass" component={ForgetPass} />
+        <Route path="/ChangePass" component={changePass} />
       </Switch>
     </BrowserRouter>
     );

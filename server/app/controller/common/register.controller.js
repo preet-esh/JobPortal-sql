@@ -46,3 +46,4 @@ exports.getCatgry= (req, res) => {
         console.log(err);
 })
 }
+

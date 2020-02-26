@@ -57,6 +57,7 @@ class Login extends Component {
           </div>
             <button type="submit" className="btn btn-primary btn-lg btn-block">Login</button>
             <p>Not a member?<a href="register">Register</a></p>
+            <p>Forget Password<a href="ForgetPass">Click Here</a></p>
         </form>
         </div>
     );
